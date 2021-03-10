@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 
 function App() {
   return (
@@ -7,59 +7,59 @@ function App() {
         <Col as="section" xs={8} md={9} className="botonera">
           <Row as="ul" className="align-content-center align-items-start list-unstyled">
             <Col xs={4} md={3} as="li">
-              <button className="boton btn-block btn btn-lg btn-warning border-none rounded">
+              <Button variant="warning" size="lg" block className="boton border-none rounded">
                 Equipos asignados a mayores de 30
-            </button>
+            </Button>
             </Col>
             <Col xs={4} md={3} as="li">
-              <button className="boton btn-block btn btn-lg btn-warning border-none rounded">
+              <Button variant="warning" size="lg" block className="boton border-none rounded">
                 Equipos asignados a personas de Tarragona
-            </button>
+              </Button>
             </Col>
             <Col xs={4} md={3} as="li">
-              <button className="boton btn-block btn btn-lg btn-warning border-none rounded">
+              <Button variant="warning" size="lg" block className="boton border-none rounded">
                 Provincias donde hay equipos
-            </button>
+              </Button>
             </Col>
             <Col xs={4} md={3} as="li">
-              <button className="boton btn-block btn btn-lg btn-warning border-none rounded">
+              <Button variant="warning" size="lg" block className="boton border-none rounded">
                 Puestos de trabajadores con equipo
-            </button>
+              </Button>
             </Col>
             <Col xs={4} md={3} as="li">
-              <button className="boton btn-block btn btn-lg btn-warning border-none rounded">
+              <Button variant="warning" size="lg" block className="boton border-none rounded">
                 Media de edad de trabajadores
-            </button>
+              </Button>
             </Col>
             <Col xs={4} md={3} as="li">
-              <button className="boton btn-block btn btn-lg btn-warning border-none rounded">
+              <Button variant="warning" size="lg" block className="boton border-none rounded">
                 Equipos ordenados por edad
-            </button>
+              </Button>
             </Col>
             <Col xs={4} md={3} as="li">
-              <button className="boton btn-block btn btn-lg btn-warning border-none rounded">
+              <Button variant="warning" size="lg" block className="boton border-none rounded">
                 Equipos de tipo sobremesa
-            </button>
+              </Button>
             </Col>
             <Col xs={4} md={3} as="li">
-              <button className="boton btn-block btn btn-lg btn-warning border-none rounded">
+              <Button variant="warning" size="lg" block className="boton border-none rounded">
                 Trabajadores con equipo portatil
-            </button>
+              </Button>
             </Col>
             <Col xs={4} md={3} as="li">
-              <button className="boton btn-block btn btn-lg btn-warning border-none rounded">
+              <Button variant="warning" size="lg" block className="boton border-none rounded">
                 Equipos organizados por tipo
-            </button>
+              </Button>
             </Col>
             <Col xs={4} md={3} as="li">
-              <button className="boton btn-block btn btn-lg btn-warning border-none rounded">
+              <Button variant="warning" size="lg" block className="boton border-none rounded">
                 Equipos portatiles asignados en Tarragona
-            </button>
+              </Button>
             </Col>
             <Col xs={4} md={3} as="li">
-              <button className="boton btn-block btn btn-lg btn-warning border-none rounded">
+              <Button variant="warning" size="lg" block className="boton border-none rounded">
                 Resumen de equipos asignados
-            </button>
+              </Button>
             </Col>
           </Row>
         </Col>
